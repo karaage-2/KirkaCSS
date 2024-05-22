@@ -21,10 +21,11 @@ Please do give credit if you decided to recolor :)
     font-family: gamefont;
 }
 
-/* Hide Logo */
+/* Logo */
 .interface .logo {
-	background-image: url("https://i.imgur.com/hDX2uHH.png");
-	background-repat: no-repeat;
+	content: url(https://i.imgur.com/hDX2uHH.png);
+  width: 200px;
+  height: 200px;
 }
 
 /*	Ad Removal */
@@ -94,9 +95,8 @@ Please do give credit if you decided to recolor :)
 
 .interface .background{
     background: url(https://i.imgur.com/CtWhDSD.png) no-repeat !important;
-    height: 300%;
-    background-position: 0px 0px;
-    /* -webkit-animation: animate 10s linear infinite!important; */
+  height: 100%;
+  width: 100%;
 }
 
 
@@ -413,7 +413,7 @@ Please do give credit if you decided to recolor :)
 }
 
 .left-icons .icon-btn:nth-child(5) {
-    background: url(https://i.imgur.com/FEsSvor.png ;
+    background: url(https://i.imgur.com/FEsSvor.png) ;
     background-size: 55px !important;
     background-repeat: no-repeat;
     margin-top: 0;
@@ -789,9 +789,7 @@ Please do give credit if you decided to recolor :)
     visibility: hidden;
 }
 
-.profile .progress-line {
-    background: #4f4e4ead;
-}
+
 
 .profile .progress-level-value,
 .stat-name {
@@ -1161,7 +1159,6 @@ Please do give credit if you decided to recolor :)
 .chat {
     margin-bottom: -53px;
     border-radius: 5px;
-    -webkit-mask-image: linear-gradient(to bottom, transparent, black, black);
 }
 
 .chat .input-wrapper {
@@ -1191,44 +1188,37 @@ Please do give credit if you decided to recolor :)
     background: #4f4e4ead;
 }
 
-.end-modal .progress {
-    background: -webkit-gradient(linear, left top, right top, from(#84a1ff), to(#39ffd4)) !important;
-    background: linear-gradient(to right, #84a1ff, #39ffd4) !important;
-}
 
-.end-modal .team-list-players .card-cont:nth-child(1),
-.end-modal .team-list-players .card-cont:nth-child(2),
-.end-modal .items {
+
+ .team-list-players .card-cont:nth-child(1),
+ .team-list-players .card-cont:nth-child(2),
+ .items {
     background: transparent !important;
     box-shadow: none !important;
 }
 
-.end-modal .team-list-players .label {
+.team-list-players .label {
     background: transparent;
 }
 
-.end-modal .label-text,
-.end-modal .points,
-.end-modal .lvl-leader {
+ .label-text,
+ .points,
+ .lvl-leader {
     color: white;
 }
 
-.end-modal .chat {
+.chat {
     margin-bottom: -53px;
     border-radius: 5px;
-    -webkit-mask-image: linear-gradient(to bottom, transparent, black, black);
 }
 
-.end-modal .chat .input-wrapper {
+.chat .input-wrapper {
     top: 400px !important;
     width: 103%;
     height: 130px;
 }
 
-.end-modal #WMNn {
-    width: 310px;
-    margin-left: 20px;
-}
+
 
 .end-modal .team-list-players .list .player {
     background: transparent;
@@ -1244,8 +1234,7 @@ Please do give credit if you decided to recolor :)
 .progress[data-v-f1059abc],
 .lvl[data-v-f1059abc],
 .progress-helper {
-    background: -webkit-gradient(linear, left top, right top, from(#84a1ff), to(#39ffd4)) !important;
-    background: linear-gradient(to right, #84a1ff, #39ffd4) !important;
+
 }
 
 .buy-btn[data-v-f1059abc] {
