@@ -93,14 +93,14 @@ Please do give credit if you decided to recolor :)
 }
 
 .interface .background{
-    background: url(https://i.imgur.com/CtWhDSD.png) repeat !important;
+    background: url(https://i.imgur.com/CtWhDSD.png) no-repeat !important;
     height: 300%;
     background-position: 0px 0px;
     -webkit-animation: animate 10s linear infinite!important;
 }
 
 .end-modal {
-    background: url(https://i.imgur.com/CtWhDSD.png) repeat !important;
+    background: url(https://i.imgur.com/CtWhDSD.png) no-repeat !important;
 }
 
 /* Loading Scene*/
