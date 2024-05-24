@@ -21,11 +21,9 @@ Please do give credit if you decided to recolor :)
     font-family: gamefont;
 }
 
-/* Logo */
+/* Hide Logo */
 .interface .logo {
-	content: url(https://i.imgur.com/hDX2uHH.png);
-  width: 200px;
-  height: 200px;
+    display: none;
 }
 
 /*	Ad Removal */
@@ -84,7 +82,7 @@ Please do give credit if you decided to recolor :)
 		}
 }
  .clan-tag {
-	animation: rainbow 5s linear infinite;
+	animation: rainbow 1.3s linear infinite;
 }
 
 /* Background */
@@ -94,11 +92,15 @@ Please do give credit if you decided to recolor :)
 }
 
 .interface .background{
-    background: url(https://i.imgur.com/CtWhDSD.png) no-repeat !important;
-  height: 100%;
-  width: 100%;
+    background: url(https://cdn.discordapp.com/attachments/919511402853580860/931100063827132456/pattern.png) repeat !important;
+    height: 300%;
+    background-position: 0px 0px;
+    -webkit-animation: animate 10s linear infinite!important;
 }
 
+.end-modal {
+    background: url(https://cdn.discordapp.com/attachments/919511402853580860/931100063827132456/pattern.png) repeat !important;
+}
 
 /* Loading Scene*/
 .loading-scene .progress {
@@ -349,7 +351,7 @@ Please do give credit if you decided to recolor :)
 }
 
 .left-icons .icon-btn:nth-child(1) {
-    background: url(https://i.imgur.com/H9BmbXT.png);
+    background: url(https://media.discordapp.net/attachments/523517791886770188/946791854823862342/clipart3359599.png?width=676&height=676);
     background-size: 55px !important;
     background-repeat: no-repeat;
     margin-top: 0;
@@ -359,13 +361,13 @@ Please do give credit if you decided to recolor :)
 }
 
 .left-icons .icon-btn:nth-child(1):hover {
-    background: url(https://i.imgur.com/H9BmbXT.png);
+    background: url(https://media.discordapp.net/attachments/523517791886770188/946791854823862342/clipart3359599.png?width=676&height=676);
     background-repeat: no-repeat;
     transform: scale(1.2)
 }
 
 .left-icons .icon-btn:nth-child(2) {
-    background: url(https://i.imgur.com/UZPS7uK.png);
+    background: url(https://media.discordapp.net/attachments/523517791886770188/946792665842843659/Daco_4606909.png);
     background-size: 55px !important;
     background-repeat: no-repeat;
     margin-top: 0;
@@ -375,13 +377,13 @@ Please do give credit if you decided to recolor :)
 }
 
 .left-icons .icon-btn:nth-child(2):hover {
-    background: url(https://i.imgur.com/UZPS7uK.png);
+    background: url(https://media.discordapp.net/attachments/523517791886770188/946792665842843659/Daco_4606909.png);
     background-repeat: no-repeat;
     transform: scale(1.2)
 }
 
 .left-icons .icon-btn:nth-child(3) {
-    background: url(https://i.imgur.com/DvEb05O.png);
+    background: url(https://media.discordapp.net/attachments/523517791886770188/946793692327452762/527-5276041_server-png-images-server-icon-free-download-server.png);
     background-size: 55px !important;
     background-repeat: no-repeat;
     margin-top: 0;
@@ -391,13 +393,13 @@ Please do give credit if you decided to recolor :)
 }
 
 .left-icons .icon-btn:nth-child(3):hover {
-    background: url(https://i.imgur.com/DvEb05O.png);
+    background: url(https://media.discordapp.net/attachments/523517791886770188/946793692327452762/527-5276041_server-png-images-server-icon-free-download-server.png);
     background-repeat: no-repeat;
     transform: scale(1.2)
 }
 
 .left-icons .icon-btn:nth-child(4) {
-    background: url(https://i.imgur.com/Zn5WZs9.png);
+    background: url(https://media.discordapp.net/attachments/523517791886770188/994487960605040680/white2.png);
     background-size: 55px !important;
     background-repeat: no-repeat;
     margin-top: 0;
@@ -407,13 +409,13 @@ Please do give credit if you decided to recolor :)
 }
 
 .left-icons .icon-btn:nth-child(4):hover {
-    background: url(https://i.imgur.com/Zn5WZs9.png);
+    background: url(https://media.discordapp.net/attachments/523517791886770188/994487960605040680/white2.png);
     background-repeat: no-repeat;
     transform: scale(1.2)
 }
 
 .left-icons .icon-btn:nth-child(5) {
-    background: url(https://i.imgur.com/FEsSvor.png) ;
+    background: url(https://media.discordapp.net/attachments/523517791886770188/966953628747321354/SeekPng.png?width=740&height=657) ;
     background-size: 55px !important;
     background-repeat: no-repeat;
     margin-top: 0;
@@ -423,13 +425,13 @@ Please do give credit if you decided to recolor :)
 }
 
 .left-icons .icon-btn:nth-child(5):hover {
-    background: url(https://i.imgur.com/FEsSvor.png);
+    background: url(https://media.discordapp.net/attachments/523517791886770188/966953628747321354/SeekPng.png?width=740&height=657);
     background-repeat: no-repeat;
     transform: scale(1.2)
 }
 
 .left-icons .icon-btn:nth-child(6) {
-    background: url(https://i.imgur.com/qNO2vZ8.png) ;
+    background: url(https://media.discordapp.net/attachments/523517791886770188/994489599978110977/inventory.png) ;
     background-size: 65px !important;
     background-repeat: no-repeat;
     margin-top: 0;
@@ -439,13 +441,13 @@ Please do give credit if you decided to recolor :)
 }
 
 .left-icons .icon-btn:nth-child(6):hover {
-    background: url(https://i.imgur.com/qNO2vZ8.png);
+    background: url(https://media.discordapp.net/attachments/523517791886770188/994489599978110977/inventory.png);
     background-repeat: no-repeat;
     transform: scale(1.2)
 }
 
 .left-icons .icon-btn:nth-child(7) {
-    background: url(https://i.imgur.com/kz3C6Zy.png) ;
+    background: url(https://media.discordapp.net/attachments/523517791886770188/946794301529137253/Daco_4390267.png?width=656&height=657) ;
     background-size: 55px !important;
     background-repeat: no-repeat;
     margin-top: 0;
@@ -455,7 +457,7 @@ Please do give credit if you decided to recolor :)
 }
 
 .left-icons .icon-btn:nth-child(7):hover {
-    background: url(https://i.imgur.com/kz3C6Zy.png);
+    background: url(https://media.discordapp.net/attachments/523517791886770188/946794301529137253/Daco_4390267.png?width=656&height=657);
     background-repeat: no-repeat;
     transform: scale(1.2)
 }
@@ -789,7 +791,9 @@ Please do give credit if you decided to recolor :)
     visibility: hidden;
 }
 
-
+.profile .progress-line {
+    background: #4f4e4ead;
+}
 
 .profile .progress-level-value,
 .stat-name {
@@ -1159,6 +1163,7 @@ Please do give credit if you decided to recolor :)
 .chat {
     margin-bottom: -53px;
     border-radius: 5px;
+    -webkit-mask-image: linear-gradient(to bottom, transparent, black, black);
 }
 
 .chat .input-wrapper {
@@ -1188,37 +1193,44 @@ Please do give credit if you decided to recolor :)
     background: #4f4e4ead;
 }
 
+.end-modal .progress {
+    background: -webkit-gradient(linear, left top, right top, from(#84a1ff), to(#39ffd4)) !important;
+    background: linear-gradient(to right, #84a1ff, #39ffd4) !important;
+}
 
-
- .team-list-players .card-cont:nth-child(1),
- .team-list-players .card-cont:nth-child(2),
- .items {
+.end-modal .team-list-players .card-cont:nth-child(1),
+.end-modal .team-list-players .card-cont:nth-child(2),
+.end-modal .items {
     background: transparent !important;
     box-shadow: none !important;
 }
 
-.team-list-players .label {
+.end-modal .team-list-players .label {
     background: transparent;
 }
 
- .label-text,
- .points,
- .lvl-leader {
+.end-modal .label-text,
+.end-modal .points,
+.end-modal .lvl-leader {
     color: white;
 }
 
-.chat {
+.end-modal .chat {
     margin-bottom: -53px;
     border-radius: 5px;
+    -webkit-mask-image: linear-gradient(to bottom, transparent, black, black);
 }
 
-.chat .input-wrapper {
+.end-modal .chat .input-wrapper {
     top: 400px !important;
     width: 103%;
     height: 130px;
 }
 
-
+.end-modal #WMNn {
+    width: 310px;
+    margin-left: 20px;
+}
 
 .end-modal .team-list-players .list .player {
     background: transparent;
@@ -1234,7 +1246,8 @@ Please do give credit if you decided to recolor :)
 .progress[data-v-f1059abc],
 .lvl[data-v-f1059abc],
 .progress-helper {
-
+    background: -webkit-gradient(linear, left top, right top, from(#84a1ff), to(#39ffd4)) !important;
+    background: linear-gradient(to right, #84a1ff, #39ffd4) !important;
 }
 
 .buy-btn[data-v-f1059abc] {
