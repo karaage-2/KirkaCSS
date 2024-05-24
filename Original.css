@@ -1,1 +1,24 @@
+/* LOGIN OR REGISTER */
+.auth-form[data-v-fb05576c]{
+  border: none!important;
+  height: 124px!important;
+}
 
+/* Left Icons */
+.icon-btn[data-v-323a31a5] {
+  border: 0!important;
+}
+
+#logo{
+  content: url("https://i.imgur.com/hDX2uHH.png");
+  width: 180px;
+  height: 180px;
+}
+
+.team-section[data-v-6beae944]{
+    position: absolute!important;
+    bottom: -10%!important;
+    left: -10%!important; 
+  transform: scale(0.8)!important;
+  : none!important;
+}
