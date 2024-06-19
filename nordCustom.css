@@ -304,7 +304,8 @@ Enjoy.
 
 /* Background */
 #app>div.interface>div.background {
-    background: var(--bg-image) auto 100% repeat no-repeat top right -100vw !important;
+/*      background: var(--bg-image) repeat no-repeat top right -100vw !important;  */
+  background: var(--bg-image) center/100%  !important;
 }
 
 #app>div.interface>div.background>div.pattern-bg,
