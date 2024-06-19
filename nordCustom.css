@@ -7,7 +7,8 @@ Enjoy.
     --primary-base-color: 21, 29, 41;
     --card-lighter-base-color: 47, 56, 66;
     --background-color: rgb(var(--primary-base-color));
-    --bg-image: url("https://i.imgur.com/fnNoHT4.jpeg");
+/*     --bg-image: url("https://i.imgur.com/fnNoHT4.jpeg"); */
+    --bg-image: url("https://i.imgur.com/2R2wUl7.png");
     --killSvg: url("https://owl-stock.work/wp-content/uploads/2020/11/00808-tmb.png");
     --HitMarker: url("https://preview.redd.it/ai0fr0pduiy31.png?width=400&format=png&auto=webp&s=7d15781973d9f1c99c5af770194431c5ac15960b");
     --card-color: #1e2429;
