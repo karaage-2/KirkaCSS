@@ -1,0 +1,97 @@
+/*By SnowyOwl.
+DC:iamsnowyowl
+Kirka:#E09FM7
+
+*/
+:root {
+    /*Border color*/
+    --border-primary: #1c8adb;
+    /*For icons and smth like that*/
+    --border-secondary: none;
+    /*For everything for now*/
+    --bd-radius-primary: 0;
+    /*Transition for animations*/
+    --transition-primary: .4s;
+    /*For a big background(You know what I mean.I recommend putting colors used in wallpaper.)*/
+    --bg-color-primary: rgba(0, 0, 0, .7);
+    /*For icons or smth like that*/
+    --bg-color-secondary: transparent;
+    /*Funniest part*/
+    /*Background image*/
+    --background-image: url("https://wallpapers.com/images/featured/mandala-b757vk8s3zfva08p.jpg");
+    /*Background opacity(If you decrease it it will become darker)*/
+    --background-opacity: 1;
+}
+
+/*Cards on the home page like settings and avatars*/
+.card-cont[data-v-e3674cae] {
+    background-color: var(--bg-color-primary);
+    border: var(--border-secondary);
+}
+
+/*Level and level progress*/
+.user-info[data-v-8f95a3ee] {
+    border-radius: var(--bd-radius-primary);
+    padding: 10% 5%;
+    justify-content: center;
+}
+
+/*Border radius on right bottom of the diamond counter*/
+.money.diamonds[data-v-5edaad78] {
+    border-bottom-right-radius: var(--bd-radius-primary);
+}
+
+/*The "check progress" label*/
+.progress-label[data-v-8f95a3ee] {
+    display: none;
+}
+
+/*Left icons*/
+.left-icons[data-v-5edaad78] {
+    background-color: var(--bg-color-secondary);
+}
+
+/*Every single left icon*/
+.icon-btn[data-v-323a31a5] {
+    background-color: var(--bg-color-primary);
+    border: var(--border-secondary);
+    transition: var(--transition-primary);
+}
+
+/*Quests*/
+.quests[data-v-5392a807] {
+    padding: 0;
+    background-color: var(--bg-color-primary);
+    border-radius: var(--bd-radius-primary);
+    border: 5px solid var(--border-primary);
+}
+
+/*The expiry time text*/
+.expire[data-v-5392a807] {
+    margin-top: 4px;
+}
+
+/*The "daily quest" and "event quest" tabs*/
+.tab[data-v-5392a807] {
+    background-color: var(--bg-color-secondary) !important;
+}
+
+/**/
+.quest[data-v-5392a807] {
+    background-color: var(--bg-color-secondary);
+}
+
+.reward[data-v-5392a807],
+.reward[data-v-5392a807]:hover {
+    background: var(--bg-color-primary);
+}
+
+/*Background!This is the funniest part while making CSS.*/
+.bg-radial[data-v-5edaad78] {
+    background: var(--bg-color-secondary);
+}
+
+.pattern-bg[data-v-5edaad78] {
+    background: var(--background-image) center/100% 100% no-repeat;
+    opacity: var(--background-opacity);
+}
