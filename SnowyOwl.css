@@ -5,40 +5,120 @@ Kirka:#E09FM7
 */
 :root {
     /*Border color*/
-    --border-primary: #1c8adb;
+    --main-color: #1c8adb;
     /*For icons and smth like that*/
-    --border-secondary: none;
+    --border-primary: none;
     /*For everything for now*/
     --bd-radius-primary: 0;
     /*Transition for animations*/
     --transition-primary: .4s;
     /*For a big background(You know what I mean.I recommend putting colors used in wallpaper.)*/
-    --bg-color-primary: rgba(0, 0, 0, .7);
-    /*For icons or smth like that*/
-    --bg-color-secondary: transparent;
+    --bg-color-primary: black;
+    /*For elements like icons and quest containers*/
+    --bg-color-secondary: rgba(0, 0, 0, .7);
+    /*For others*/
+    --bg-color-tertiary: transparent;
     /*Funniest part*/
     /*Background image*/
-    --background-image: url("https://wallpapers.com/images/featured/mandala-b757vk8s3zfva08p.jpg");
+    --background-image: url("https://ubuntucinnamon.org/wp-content/uploads/2020/04/ubuntu_cinnamon_hardy_heron-scaled.jpg");
     /*Background opacity(If you decrease it it will become darker)*/
     --background-opacity: 1;
+    /*No need to change variables below cuz it changes almost nothing*/
+    --interface-top-margin: 0px;
+    /*Default 0px*/
+    --interface-side-margin: 0px;
+    /*Default 8px*/
+    --interface-height: 114px;
+    /*Default 114px*/
+    --interface-width: 250px;
+    /*Default 250px*/
+    --quest-play-button-width: 379px;
+    /*Default 379px*/
+    --logo-left-margin: 10vw;
+    /*Nothing set default*/
+    --quest-border: 5px;
+}
+
+@keyframes glow {
+    from {
+        text-shadow: 0 0 5px #fff, 0 0 5px var(--main-color), 0 0 5px var(--main-color), 0 0 5px var(--main-color), 0 0 6px var(--main-color), 0 0 7px var(--main-color), 0 0 8px var(--main-color);
+    }
+}
+
+@keyframes rainbow {
+
+    100%,
+    0% {
+        color: rgb(255, 0, 0);
+    }
+
+    8% {
+        color: rgb(255, 127, 0);
+    }
+
+    16% {
+        color: rgb(255, 255, 0);
+    }
+
+    25% {
+        color: rgb(127, 255, 0);
+    }
+
+    33% {
+        color: rgb(0, 255, 0);
+    }
+
+    41% {
+        color: rgb(0, 255, 127);
+    }
+
+    50% {
+        color: rgb(0, 255, 255);
+    }
+
+    58% {
+        color: rgb(0, 127, 255);
+    }
+
+    66% {
+        color: rgb(0, 0, 255);
+    }
+
+    75% {
+        color: rgb(127, 0, 255);
+    }
+
+    83% {
+        color: rgb(255, 0, 255);
+    }
+
+    91% {
+        color: rgb(255, 0, 127);
+    }
 }
 
 /*Cards on the home page like settings and avatars*/
-.card-cont[data-v-e3674cae] {
-    background-color: var(--bg-color-primary);
-    border: var(--border-secondary);
+.card-cont[data-v-e3674cae],
+.card-cont[data-v-e3674cae]:hover {
+    background-color: var(--bg-color-secondary);
+    border: var(--border-primary);
+}
+
+/*Avatar icon including the id*/
+.avatar-info[data-v-8f95a3ee] {
+    width: var(--interface-height);
+    margin-right: var(--interface-side-margin);
+}
+
+/*Avatar icon*/
+.avatar[data-v-1d71ea15] {
+    border-color: var(--main-color);
 }
 
 /*Level and level progress*/
 .user-info[data-v-8f95a3ee] {
     border-radius: var(--bd-radius-primary);
-    padding: 10% 5%;
     justify-content: center;
-}
-
-/*Border radius on right bottom of the diamond counter*/
-.money.diamonds[data-v-5edaad78] {
-    border-bottom-right-radius: var(--bd-radius-primary);
 }
 
 /*The "check progress" label*/
@@ -46,24 +126,71 @@ Kirka:#E09FM7
     display: none;
 }
 
+/*Coins and diamonds*/
+.moneys[data-v-5edaad78] {
+    display: block;
+    width: var(--interface-width);
+    height: var(--interface-height);
+    margin-top: calc(0px - var(--interface-height));
+    margin-left: calc(var(--interface-height) + var(--interface-width) + var(--interface-side-margin) * 2);
+}
+
+.money[data-v-5edaad78] {
+    margin-right: 0;
+    height: 50%;
+}
+
+/*Border radius on right bottom of the diamond counter*/
+.money.diamonds[data-v-5edaad78] {
+    border-bottom-right-radius: var(--bd-radius-primary);
+}
+
+.logo[data-v-5edaad78] {
+    transform-origin: top left;
+    width: var(--interface-height);
+    height: var(--interface-height);
+    top: 0;
+    left: calc(var(--interface-height) + var(--interface-width) * 2 + var(--interface-side-margin) * 3 + var(--logo-left-margin));
+}
+
+/*Reddit,discord,client links*/
+.soc-group[data-v-1a23e76c],
+.soc-group[data-v-0f4e863e] {
+    display: none;
+}
+
+/*Settings*/
+.settings[data-v-5edaad78] {
+    height: var(--interface-height);
+    width: var(--interface-height);
+    position: absolute;
+    right: calc(var(--quest-play-button-width) + var(--interface-side-margin));
+    top: var(--interface-top-margin);
+}
+
+.settings-and-socicons[data-v-5edaad78] {
+    margin-bottom: var(--interface-top-margin);
+}
+
 /*Left icons*/
 .left-icons[data-v-5edaad78] {
-    background-color: var(--bg-color-secondary);
+    background-color: var(--bg-color-tertiary);
 }
 
 /*Every single left icon*/
 .icon-btn[data-v-323a31a5] {
-    background-color: var(--bg-color-primary);
-    border: var(--border-secondary);
+    background-color: var(--bg-color-secondary);
+    border: var(--border-primary);
     transition: var(--transition-primary);
+    width: var(--interface-height);
 }
 
 /*Quests*/
 .quests[data-v-5392a807] {
     padding: 0;
-    background-color: var(--bg-color-primary);
+    background-color: var(--bg-color-secondary);
     border-radius: var(--bd-radius-primary);
-    border: 5px solid var(--border-primary);
+    border: var(--quest-border) solid var(--main-color);
 }
 
 /*The expiry time text*/
@@ -73,22 +200,60 @@ Kirka:#E09FM7
 
 /*The "daily quest" and "event quest" tabs*/
 .tab[data-v-5392a807] {
-    background-color: var(--bg-color-secondary) !important;
+    background-color: var(--bg-color-tertiary) !important;
 }
 
-/**/
 .quest[data-v-5392a807] {
-    background-color: var(--bg-color-secondary);
+    background-color: var(--bg-color-tertiary);
 }
 
 .reward[data-v-5392a807],
 .reward[data-v-5392a807]:hover {
-    background: var(--bg-color-primary);
+    background-color: var(--bg-color-secondary) !important;
+}
+
+/*Play button*/
+.play-btn[data-v-5edaad78] {
+    background-color: var(--bg-color-secondary) !important;
+    font-style: normal;
+    width: var(--quest-play-button-width);
+    margin-right: 0;
+    box-shadow: transparent 0 0 !important;
+    text-shadow: black 0 0 !important;
+}
+
+.play-btn[data-v-5edaad78]:hover {
+    background-color: var(--main-color) !important;
+}
+
+.button[data-v-2fd8e820] {
+    transform: none;
+    -webkit-text-stroke: 0;
+}
+
+.button[data-v-2fd8e820]:after {
+    border: 0;
+}
+
+.text[data-v-2fd8e820] {
+    transform: none;
+    font-family: Exo\ 2;
+    font-weight: bolder;
+}
+
+/*Play button top and bottom line*/
+.WwmMnNw[data-v-2fd8e820] {
+    display: none;
+}
+
+/*Play button triangle*/
+.triangle[data-v-2fd8e820] {
+    display: none;
 }
 
 /*Background!This is the funniest part while making CSS.*/
 .bg-radial[data-v-5edaad78] {
-    background: var(--bg-color-secondary);
+    background: var(--bg-color-tertiary);
 }
 
 .pattern-bg[data-v-5edaad78] {
